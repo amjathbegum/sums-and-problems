@@ -24,6 +24,10 @@ namespace ConsoleApplication7
             int value2 = int.Parse(Console.ReadLine());
             int add = value1 + value2;
             Console.WriteLine("Addtion:"+add);
+            int sub = value1 - value2;
+            Console.WriteLine("Substract:"+sub);
+            int pro = value1 * value2;
+            Console.WriteLine("Multiplication:"+pro);
  
 
         }
